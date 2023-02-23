@@ -50,10 +50,4 @@ if hasHeader {
     rowHeight = contentHeight + 20
 }
 print("The row height is",rowHeight)
-import Foundation
-func first_two(_ input: String) -> String {
-    let chars = input.characters
-    let firstTwo = chars.prefix(2)
-    return String(firstTwo)
-}
-print()
+
