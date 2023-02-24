@@ -26,7 +26,29 @@ print(arrayOne.max()!)
 /*5.Write a Swift program to take one array and sort it in descending order.*/
 arrayOne = [0,5,6,2,10]
 arrayOne.reversed()
-let color = "red"
-var isRed = color == "red" ? true:false
+/*6.Print all the numbers from listOfNumbers that are divisible by at least one number from divisors */
+var listArray = [1, 2, 3, 10, 100]
+var divArray = [2, 5]
+numberString: for number in listArray {
+    for divArray in divArray {
+        if number % divArray == 0 {
+            print(number, terminator: ", ")
+            continue numberString
+        }
+    }
+}
+print()
+/*7.Try all Array methods: new */
+arrayOne = [8, 7, 1, 2, 3, 4, 5]
+print(arrayOne.first!)
+print(arrayOne.last!)
+print(arrayOne.lastIndex(of: 2)!)
+print(arrayOne.contains(4))
+print(arrayOne.count)
+arrayOne.append(6)
+print(arrayOne)
+print(arrayOne.remove(at: 0))
+print(arrayOne.distance(from: 1, to: 6))
+print(arrayOne.remove(at: 0))
 
 
